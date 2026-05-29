@@ -21,11 +21,11 @@ public class ConfigManager {
 
     public static class Config {
         public long banDurationSeconds = 604800;
-        public int disconnectTimerSeconds = 5;
+        public int disconnectTimerSeconds = 2;
         public List<String> banMessage = Arrays.asList(
                 "<red>☠ You are Dead ☠</red>",
                 "",
-                "<white>You can join in: <yellow>%death_time_remaining%</yellow></white>",
+                "<white>You can join in: <yellow>%death_time_remaining%</yellow></white>"
         );
     }
 
