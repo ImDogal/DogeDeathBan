@@ -1,6 +1,5 @@
-<img width="128" height="128" alt="icon" src="https://github.com/user-attachments/assets/255f547a-7ee0-4616-bfbb-7889e825505f" />
 
-# Panda Death Ban
+# Doge Death Ban
 
 Drop-in Fabric server mod that adds death bans to your server.   
 
@@ -34,7 +33,5 @@ Drop-in Fabric server mod that adds death bans to your server.
 `hardcoreanarchy.gay`   (Deathban Anarchy)  
 
 ## Support
-[Support discord here!]( https://discord.gg/3tP3Tqu983)
 
-## License
-[CC0](https://creativecommons.org/public-domain/cc0/)
+
