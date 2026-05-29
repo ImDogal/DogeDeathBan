@@ -1,7 +1,7 @@
-package me.TreeOfSelf.PandaDeathBan.mixin;
+package com.fractlabs.DogeDeathBan.mixin;
 
-import me.TreeOfSelf.PandaDeathBan.ConfigManager;
-import me.TreeOfSelf.PandaDeathBan.StateSaverAndLoader;
+import com.fractlabs.DogeDeathBan.ConfigManager;
+import com.fractlabs.DogeDeathBan.StateSaverAndLoader;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.damagesource.DamageSource;
 import org.spongepowered.asm.mixin.Mixin;

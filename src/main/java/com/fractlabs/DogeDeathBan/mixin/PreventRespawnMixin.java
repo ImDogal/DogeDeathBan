@@ -1,6 +1,6 @@
-package me.TreeOfSelf.PandaDeathBan.mixin;
+package com.fractlabs.DogeDeathBan.mixin;
 
-import me.TreeOfSelf.PandaDeathBan.StateSaverAndLoader;
+import com.fractlabs.DogeDeathBan.StateSaverAndLoader;
 import net.minecraft.network.protocol.game.ServerboundClientCommandPacket;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.network.ServerGamePacketListenerImpl;

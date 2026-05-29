@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan;
+package com.fractlabs.DogeDeathBan;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;

@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan;
+package com.fractlabs.DogeDeathBan;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -15,7 +15,7 @@ public class ConfigManager {
             .setPrettyPrinting()
             .disableHtmlEscaping()
             .create();
-    private static final File CONFIG_FILE = new File("config/PandaDeathBan.json");
+    private static final File CONFIG_FILE = new File("config/DogeDeathBan.json");
 
     private static Config config;
 
@@ -26,8 +26,6 @@ public class ConfigManager {
                 "<red>☠ You are Dead ☠</red>",
                 "",
                 "<white>You can join in: <yellow>%death_time_remaining%</yellow></white>",
-                "",
-                "<gray>Discord: discord.hardcoreanarchy.gay</gray>"
         );
     }
 
@@ -41,7 +39,7 @@ public class ConfigManager {
             if (!CONFIG_FILE.exists()) {
                 config = new Config();
                 saveConfig();
-                PandaDeathBan.LOGGER.info("Created default config file");
+                DogeDeathBan.LOGGER.info("Created default config file");
                 return;
             }
 
@@ -56,10 +54,10 @@ public class ConfigManager {
                 }
 
                 saveConfig();
-                PandaDeathBan.LOGGER.info("Loaded config file");
+                DogeDeathBan.LOGGER.info("Loaded config file");
             }
         } catch (IOException e) {
-            PandaDeathBan.LOGGER.error("Failed to load config, using defaults", e);
+            DogeDeathBan.LOGGER.error("Failed to load config, using defaults", e);
             config = new Config();
         }
     }
@@ -68,7 +66,7 @@ public class ConfigManager {
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             GSON.toJson(config, writer);
         } catch (IOException e) {
-            PandaDeathBan.LOGGER.error("Failed to save config", e);
+            DogeDeathBan.LOGGER.error("Failed to save config", e);
         }
     }
 

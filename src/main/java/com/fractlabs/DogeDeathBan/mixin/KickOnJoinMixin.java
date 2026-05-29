@@ -1,7 +1,7 @@
-package me.TreeOfSelf.PandaDeathBan.mixin;
+package com.fractlabs.DogeDeathBan.mixin;
 
-import me.TreeOfSelf.PandaDeathBan.BanMessageUtil;
-import me.TreeOfSelf.PandaDeathBan.StateSaverAndLoader;
+import com.fractlabs.DogeDeathBan.BanMessageUtil;
+import com.fractlabs.DogeDeathBan.StateSaverAndLoader;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.players.NameAndId;
 import net.minecraft.server.players.PlayerList;

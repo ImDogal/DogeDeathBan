@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan;
+package com.fractlabs.DogeDeathBan;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -11,14 +11,14 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PandaDeathBan implements ModInitializer {
+public class DogeDeathBan implements ModInitializer {
 
-	public static final Logger LOGGER = LoggerFactory.getLogger("panda-death-ban");
-	public static final String MOD_ID = "panda-death-ban";
+	public static final Logger LOGGER = LoggerFactory.getLogger("doge-death-ban");
+	public static final String MOD_ID = "doge-death-ban";
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("PandaDeathBan Started!");
+		LOGGER.info("DogeDeathBan Started!");
 
 		ConfigManager.loadConfig();
 

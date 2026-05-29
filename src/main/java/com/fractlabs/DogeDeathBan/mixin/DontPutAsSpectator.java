@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan.mixin;
+package com.fractlabs.DogeDeathBan.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerGamePacketListenerImpl;

@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan;
+package com.fractlabs.DogeDeathBan;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -15,7 +15,7 @@ import java.util.UUID;
 
 public class StateSaverAndLoader extends SavedData {
 
-    public static final Identifier DATA_ID = Identifier.withDefaultNamespace("panda-death-ban");
+    public static final Identifier DATA_ID = Identifier.withDefaultNamespace("doge-death-ban");
 
     private static final Codec<HashMap<UUID, PlayerDeathBanData>> PLAYERS_CODEC = Codec.unboundedMap(
             Codec.STRING.xmap(UUID::fromString, UUID::toString),

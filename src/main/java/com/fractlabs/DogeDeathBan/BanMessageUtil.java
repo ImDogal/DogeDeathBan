@@ -1,4 +1,4 @@
-package me.TreeOfSelf.PandaDeathBan;
+package com.fractlabs.DogeDeathBan;
 
 import eu.pb4.placeholders.api.ParserContext;
 import eu.pb4.placeholders.api.ServerPlaceholderContext;
