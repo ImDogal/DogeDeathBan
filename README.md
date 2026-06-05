@@ -14,7 +14,7 @@ Drop-in Fabric server mod that adds death bans to your server.
 
 ## Configuring
 
-`config/PandaDeathBan.json` generated at runtime.
+`config/DogeDeathBan.json` generated at runtime.
 ```json
 {
   "banDurationSeconds": 604800,
@@ -23,15 +23,7 @@ Drop-in Fabric server mod that adds death bans to your server.
     "<red>☠ You are Dead ☠</red>",
     "",
     "<white>You can join in: <yellow>%death_time_remaining%</yellow></white>",
-    "",
-    "<gray>Discord: discord.hardcoreanarchy.gay</gray>"
+    ""
   ]
 }
 ```
-
-## Try it out
-`hardcoreanarchy.gay`   (Deathban Anarchy)  
-
-## Support
-
-
